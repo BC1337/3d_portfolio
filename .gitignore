@@ -1,0 +1,53 @@
+# Ignore general system files
+.DS_Store
+Thumbs.db
+
+# Ignore Node.js files
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp/
+.pnp.js
+
+# Ignore build and compiled files
+/dist/
+/build/
+/out/
+/public/
+
+# Ignore environment variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore editor-specific files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+
+# Ignore package lock files
+package-lock.json
+yarn.lock
+
+# Ignore Mac specific files
+.AppleDouble
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore user-specific files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
